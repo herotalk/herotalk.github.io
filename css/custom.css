@@ -1,0 +1,475 @@
+/*--------------------------------- Additional Custom CSS ---------------------------*/
+/* CREDIT 
+
+THANKS TO: 
+# NGARRATT.UK
+
+# crowdreach.co.uk
+# perfecticons.com
+# getskeleton.com
+# fotorama.io
+# trulycode.com/bytes/easy-countdown-to-date-with-javascript-jquery/ @mrwigster
+# codepen.io/chriscoyier/pen/yqHxB
+# www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+# fortawesome.github.io/Font-Awesome/
+# codepen.io/jacksparrow43/pen/LEpoOJ
+
+especially to www.vrgochair.com
+
+*/
+
+@-webkit-keyframes glowing {
+  0% { background-color: rgba(102, 112, 255, 0.9); -webkit-box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+  50% { background-color: rgba(102, 112, 255, 0.9); -webkit-box-shadow: 0 0 10px rgba(102, 112, 255, 0.9); }
+  100% { background-color: rgba(102, 112, 255, 0.9); -webkit-box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: rgba(102, 112, 255, 0.9); -moz-box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+  50% { background-color: rgba(102, 112, 255, 0.9); -moz-box-shadow: 0 0 10px rgba(102, 112, 255, 0.9); }
+  100% { background-color: rgba(102, 112, 255, 0.9); -moz-box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: rgba(102, 112, 255, 0.9); box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+  50% { background-color: rgba(102, 112, 255, 0.9); box-shadow: 0 0 10px rgba(102, 112, 255, 0.9); }
+  100% { background-color: rgba(102, 112, 255, 0.9); box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+}
+
+@keyframes glowing {
+  0% { background-color: rgba(102, 112, 255, 0.9); box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+  50% { background-color: rgba(102, 112, 255, 0.9); box-shadow: 0 0 10px rgba(102, 112, 255, 0.9); }
+  100% { background-color: rgba(102, 112, 255, 0.9); box-shadow: 0 0 0px rgba(102, 112, 255, 0.9); }
+}
+
+.glow {
+  -webkit-animation: glowing 3500ms infinite;
+  -moz-animation: glowing 3500ms infinite;
+  -o-animation: glowing 3500ms infinite;
+  animation: glowing 3500ms infinite;
+}
+
+
+
+
+#second { display:none; color: #FFF; padding: 0 5px; background-color: rgba(102, 112, 255, 0.9);}
+#first:hover+ #second { display: inline-block;}
+
+.centerblock p {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+     
+    }
+
+.centerblock:before  {
+    content: ' ';
+    margin: 4vh 33.3333% 0 33.3333%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33%;
+    height: 50vh;
+    
+    z-index: 1;
+    background-image: url("../images/ht/proc2.png");
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    opacity: 0.8;
+    filter: alpha(Opacity=20); 
+    }
+
+#centertext { 
+    margin: 4vh 33.3333% 0 33.3333%; text-align: center;
+    text-shadow: 1px 1px 1px black, 0 0 0em #fff;
+    color: #000; 
+    }
+
+#scenestxt { margin: 19vh 0% 0 33%; text-align: center; background-color: rgba(0,0,0,0.0); color: black; text-shadow: 1px 1px 2px white, 0 0 1em white;}
+
+#techdettxt { margin: 19vh 0% 0 25%; width:50%; text-align: center; background-color: rgba(0,0,30,0.5); color: #E0E0FF; text-shadow: 1px 1px 2px black, 0 0 1em red;}
+
+.intensiontxt-h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*CONTENT SECTIONS ((background-size: 100% 70vh;))*/
+#filler {
+	height: 100vh; 
+	width: 100%; 
+	background-color: #000;
+	}
+
+#bigvid {
+	height: 100vh; 
+	width: 100%; 
+	background-color: #000;
+	}
+	
+.bigvid { width: 100%; height: 100vh; }
+.vreality { width: 100%; height: 100vh; }
+.intention { width: 100%; height: 100vh; }
+.scenes { width: 100%; height: 100vh; }
+
+
+#intention {
+	height: 100vh; 
+	width: 100%; 
+	
+	background-image: url("../images/ht/360camMel.png");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-color: #fff;
+	}
+    
+#bigvideo {
+	height: 100vh; 
+	width: 100%; 
+	
+	background-image: url("../images/ht/360camY.png");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-color: #000;
+	}
+    
+#vreality {
+    height: 100vh; 
+	width: 100%; 
+    
+	background-image: url("../images/ht/360music.png");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-color: #fff;
+    
+
+	}
+    
+#scenes {
+	height: 100vh; 
+	width: 100%; 
+	
+	background-image: url("../images/ht/island.png");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-color: #fff;
+	}
+
+#techdet {
+	height: 100vh; 
+	width: 100%; 
+	
+	background-image: url("../images/ht/techdet.png");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-color: #fff;
+	}    
+
+#sub {
+	height: 134px; 
+	width: 100%; 
+	display: block;
+	
+	background-color: #222222;
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	}
+
+/* FONT AWESOME */
+
+.list-unstyled {
+	list-style: none;
+	position: fixed;
+	margin-top: 14vh;
+	padding-top: 140px;
+	margin-left: 10px;
+	float: left;
+	display: block;
+}
+
+.social-icons .fa {
+	font-size: 1.3em;
+}
+
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: rgba(102, 112, 255, 0.9);
+	border: 3px solid rgba(32, 52, 255, 0.9);;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+
+/* FOOTER */
+
+	
+.outerx {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	
+    background-color: #ffffff;
+    background-attachment: scroll;
+    background-image: url(../images/360camY.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#countdown p {
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+#down2 { 
+	font-size: 100px;
+	color: #fff;
+	opacity: 0.3;
+	margin-top: -13px;
+	padding: 0px;
+	display: block;
+	display: none; 
+}
+
+#down2:hover {
+color: #8b8b8b;
+}
+
+#down {
+font-size: 100px;
+color: #fff;
+opacity: 0.3;
+margin-top: -13px;
+padding: 0px;
+display: block
+}
+
+#down:hover {
+color: #8b8b8b;
+}
+	
+/*SOCIAL*/
+@font-face {
+    font-family: 'si';
+    src: url('../data/social/socicon.eot');
+    src: url('../data/social/socicon.eot-#iefix') format('embedded-opentype'),
+         url('../data/social/socicon.woff') format('woff'),
+         url('../data/social/socicon.ttf') format('truetype'),
+         url('../data/social/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../data/social/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 33px;
+    height: 33px;
+    line-height: 30px;
+    font-size: 18px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #FFF;
+    background-color: rgba(102, 112, 255, 0.9);
+	border: 2px solid rgba(102, 112, 255, 0.9);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: transparent;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook {
+    background-color: transparent;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-instagram {
+    background-color: transparent;
+}
+.soc-instagram:before {
+    content:'x';
+}
+.soc-youtube {
+    background-color: transparent;
+}
+.soc-youtube:before {
+    content:'r';
+}
+
+.soc-mail {
+    background-color: transparent;
+}
+.soc-mail:before {
+    content:'.';
+}
+
+.soc li a:hover {
+	color: rgba(102, 112, 255, 0.9);
+}
+
+.soc-twitter:hover {
+    background-color: transparent;
+}
+.soc-facebook:hover {
+    background-color: transparent;
+}
+.soc-instagram:hover {
+    background-color: transparent;
+}
+.soc-youtube:hover {
+    background-color: transparent;
+}
+.soc-mail:hover {
+    background-color: transparent;
+}
+
+
+
+
+
+#socials {
+	position: fixed;
+	margin-left: 220px;
+	margin-top: 58px;
+}
+
+
+
+#glitch{
+	width: 200px;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: fixed;
+}
+
+#mobsoc {display: none;}
+
+#mc-embedded-subscribe2{ display:block;}
+
+/* Mobile Adjustments to Skeleton Responsive Bootstrap cutted*/
+
+@media screen and (max-width: 600px) {
+
+.list-unstyled { display: none;}
+}
+
+@media screen and (max-width: 526px) {
+ 
+}
