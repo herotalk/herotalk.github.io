@@ -85,6 +85,16 @@ especially to www.vrgochair.com
     opacity: 0.8;
     filter: alpha(Opacity=20); 
     }
+    
+.vkimage  {
+    background-image: url("../images/vk.png");
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; 
+    }
 
 #centertext { 
     margin: 4vh 33.3333% 0 33.3333%; text-align: center;
